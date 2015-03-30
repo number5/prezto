@@ -1,0 +1,11 @@
+# ZSH Theme 
+
+setopt ALL_EXPORT
+setopt PROMPT_SUBST
+
+local return_code="%(?..%{$FG[red]%}%? ↵%{$FG[none]%})"
+RPS1="%F{orange}(%D{%m-%d %H:%M})%f"
+
+
+
+unsetopt ALL_EXPORT
