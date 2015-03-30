@@ -2,9 +2,9 @@
 
 setopt ALL_EXPORT
 setopt PROMPT_SUBST
-
-local return_code="%(?..%{$FG[red]%}%? ↵%{$FG[none]%})"
-RPS1="%F{orange}(%D{%m-%d %H:%M})%f"
+       
+local return_code="%(?..%F{red}%? ↵%f)"
+RPS1="${return_code} %F{60}[%D{%m-%d %H:%M}]%f"
 
 
 
