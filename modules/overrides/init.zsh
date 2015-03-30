@@ -11,7 +11,6 @@ sourcedir() {
         case $f in 
             *~|*.bak|*.old|*.sw?|*.zwc|*.disabled) continue;;
         esac
-        #echo "  sourcing file $f"
         source "$f"
     done
 }
