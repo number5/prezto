@@ -7,7 +7,6 @@ VISUAL=vim
 
 
 # python env
-PYTHONPATH=.
 VIRTUALENV_USE_DISTRIBUTE=1
 
 # TERM
