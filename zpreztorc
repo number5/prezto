@@ -84,6 +84,12 @@ zstyle ':prezto:module:gnu-utility' prefix 'g'
 # Auto set to 'off' on dumb terminals.
 zstyle ':prezto:module:prompt' theme 'pure'
 
+
+# disable pure git remote check
+
+export PURE_GIT_PULL=0
+
+
 #
 # Ruby
 #
