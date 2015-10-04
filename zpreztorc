@@ -78,6 +78,9 @@ zstyle ':prezto:module:gnu-utility' prefix 'g'
 # Prompt
 #
 
+PURE_PROMPT_SYMBOL=λ
+PURE_GIT_PULL=0
+
 # Set the prompt theme to load.
 # Setting it to 'random' loads a random theme.
 # Auto set to 'off' on dumb terminals.
@@ -86,7 +89,6 @@ zstyle ':prezto:module:prompt' theme 'pure'
 
 # disable pure git remote check
 
-export PURE_GIT_PULL=0
 
 
 #
