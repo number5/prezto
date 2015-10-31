@@ -6,9 +6,6 @@ EDITOR=vim
 VISUAL=vim
 
 
-# python env
-VIRTUALENV_USE_DISTRIBUTE=1
-
 # TERM
 TERM=${TERM:-xterm-256color}
 
