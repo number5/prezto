@@ -1,6 +1,0 @@
-bzr-git-sync() {
-bzr pull
-bzr fast-export |git fast-import
-git reset --hard
-git push origin master
-}
