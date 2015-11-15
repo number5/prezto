@@ -73,4 +73,7 @@ alias gpj='git push origin HEAD:refs/heads/jenkins '
 
 alias ':wq'='echo "You are not in vim, dummy"'
 
+# remove aliases conflict with command
+unalias gb
+
 # vim:ft=zsh

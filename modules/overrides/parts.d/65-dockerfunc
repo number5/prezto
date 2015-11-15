@@ -77,7 +77,7 @@ cadvisor(){
         open "http://$(docker-machine ip $DOCKER_MACHINE_NAME):9999"
 }
 
-consul(){
+docker_consul(){
 	del_stopped consul
 
 	# check if we passed args and if consul is running
