@@ -280,12 +280,7 @@ watchman(){
 		--name watchman \
 		jess/watchman --foreground
 }
-wrk(){
-	docker run -it --rm \
-		--log-driver none \
-		--name wrk \
-		jess/wrk "$@"
-}
+
 ykpersonalize(){
 	del_stopped ykpersonalize
 

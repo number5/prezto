@@ -5,7 +5,7 @@ alias va='. venv/bin/activate'
 alias pi='./venv/bin/pip'
 
 #alias ack='ack-grep'
-alias tag='git describe --abbrev=0'
+#alias tag='git describe --abbrev=0'
 alias gbm='git branch --merged'
 alias gfc='git fetch origin'
 alias gpull='git pull --rebase'
@@ -13,7 +13,7 @@ alias gds="git diff --stat"
 alias gl="git log --graph --pretty=format:'%C(magenta)%h%Creset %w(72,1,2)%Cgreen(%cr) -%C(bold green)%d%Creset %s %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
 alias gr='git remote -v'
 alias s="git status"
-alias gs="git status"
+alias gs="git status --short"
 alias igu='iconv -f gb18030 -t utf8'
 alias rmpyc='zargs **/*.pyc -- rm'
 alias rmorig='zargs **/*.orig -- rm'
