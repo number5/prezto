@@ -16,6 +16,7 @@ zstyle ':prezto:load' pmodule \
   'environment' \
   'terminal' \
   'editor' \
+  'syntax-highlighting' \
   'history' \
   'directory' \
   'spectrum' \
@@ -27,7 +28,6 @@ zstyle ':prezto:load' pmodule \
   'ruby' \
   'git' \
   'overrides' \
-  'syntax-highlighting' \
   'history-substring-search' \
   'prompt'
 #
